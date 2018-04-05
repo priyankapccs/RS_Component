@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.135372">
+<testcase classname="RS Component Login feature" name="RS Component Login Test Scenario" time="10.135372">
+<failure message="java.lang.NullPointerException&#10;&#9;at stepDefinitions.LoginStepDefinition.login_page_is_RS_Components(LoginStepDefinition.java:39)&#10;&#9;at ✽.When title of login page is RS Components | Electronic and Electrical Components(Login.feature:6)&#10;"><![CDATA[Given User is already on Login Page.........................................passed
+When title of login page is RS Components | Electronic and Electrical Components.failed
+Then User enter User name and password......................................undefined
+Then user click on Log In button............................................skipped
+Then user is on Home page...................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.LoginStepDefinition.login_page_is_RS_Components(LoginStepDefinition.java:39)
+	at ✽.When title of login page is RS Components | Electronic and Electrical Components(Login.feature:6)
+]]></failure>
+</testcase>
+</testsuite>

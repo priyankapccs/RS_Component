@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "RS Component Login Test Scenario",
+        "description": "",
+        "id": "rs-component-login-feature;rs-component-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10134502866,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.User_is_already_on_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 868976,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.LoginStepDefinition.login_page_is_RS_Components(LoginStepDefinition.java:39)\n\tat ✽.When title of login page is RS Components | Electronic and Electrical Components(Login.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "title of login page is RS Components | Electronic and Electrical Components",
+            "match": {
+              "location": "LoginStepDefinition.login_page_is_RS_Components()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User enter User name and password",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user click on Log In button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_Log_In_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is on Home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "RS Component Login feature",
+    "description": "",
+    "id": "rs-component-login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
