@@ -39,7 +39,7 @@ public class Product_Battery {
 	     Assert.assertTrue(title.contains("Batteries | RS Components"));
 	}
 	
-	@Then("^Brower is closed$")
+	@Then("^Browser is closed$")
 	public void Brower_is_closed() 
 	
 	{

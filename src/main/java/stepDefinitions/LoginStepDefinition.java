@@ -34,7 +34,7 @@ public class LoginStepDefinition {
 	}
 	
 	
-	@When("^User enter User name and password$")
+	@When("^User enter user name and password$")
 	public void User_enter_User_name_and_password()
 	{
 		driver.findElement(By.name("username")).sendKeys("priyanka.pccs");
@@ -57,7 +57,7 @@ public class LoginStepDefinition {
      Assert.assertTrue(title.contains("RS Components | Electronic and Electrical Components"));
 	}
 	
-	@Then("^Then Brower is closed$")
+	@Then("^Browser is closed$")
 	public void Brower_is_closed() 
 	
 	{
